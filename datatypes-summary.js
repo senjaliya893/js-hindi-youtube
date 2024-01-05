@@ -29,9 +29,35 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("Hello World");
+    // console.log("Hello World");
 }
 
-console.log(typeof scoreValue)
+// console.log(typeof scoreValue)
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// *********************************************************************************
+
+// Stack (primitive), Heap (Non-Primitive)
+
+let myYoutubename = "viveksenjaliya.com"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl",
+}
+
+let userTwo = userOne
+
+userTwo.email = "vivek@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
